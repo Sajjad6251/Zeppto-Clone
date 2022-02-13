@@ -1,0 +1,184 @@
+/* ==================================
+For Tablet Screen
+================================== */
+@media only screen and (max-width: 768px) {
+  /* Start Reusable CSS Code */
+  #hero .left,
+  #hero .right,
+  #checkout .left,
+  #checkout .right,
+  #warning .left,
+  #warning .right,
+  #benefit .benefitWrapper,
+  #benefit .cardWrapper,
+  #security .left,
+  #security .right,
+  #platform .left,
+  #platform .right {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #benefit .cardWrapper,
+  #security .securityWrapper,
+  #platform .platformWrapper {
+    row-gap: 75px;
+  }
+  /* Start Header Section */
+  header .right {
+    display: none;
+  }
+  /* Mobile Menu Button */
+  .mobileMenuButton {
+    display: block;
+  }
+  /* Start Hero Section */
+  #hero .heroWrapper {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  #hero .left h1 {
+    background-position-x: 55px;
+  }
+  #hero .left p {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+  /* Start Slider Section */
+  #slider .slider {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Start Benefit Section */
+  #benefit .right h5 {
+    font-size: 20px;
+  }
+  #benefit .cardWrapper .card {
+    width: 48%;
+  }
+  /* Start Platform Section */
+  #platform .right .card {
+    width: 24%;
+  }
+  #platform .right .card img {
+    width: 110px;
+    height: 85px;
+  }
+  /* Start FAQ Section */
+  #faq .faqWrapper a h5 {
+    width: 90%;
+    font-size: 20px;
+  }
+  /* Start Activate Section */
+  #activate .activateWrapper {
+    height: 450px;
+    padding-top: 45px;
+    padding-bottom: 69px;
+  }
+  #activate .left,
+  #activate .right {
+    width: 100%;
+  }
+  /* Start Footer Section */
+  footer {
+    padding-bottom: 1rem;
+  }
+  footer .navLink {
+    flex-direction: column-reverse;
+  }
+  footer .left {
+    width: 55%;
+  }
+  footer .navLink .cr {
+    margin-top: 30px;
+  }
+  footer .navLink .link li {
+    padding: 15px 45px;
+  }
+}
+
+/* ==================================
+For Mobile Screen
+================================== */
+@media only screen and (max-width: 576px) {
+  /* Start Reusable CSS Code */
+  .secTitle {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  #checkout .left p,
+  #warning .left p {
+    line-height: 27px;
+  }
+  /* Start Hero Section */
+  #hero .left h1 {
+    font-size: 45px;
+    line-height: 60px;
+    background-position-y: 53px;
+    background-position-x: 0;
+  }
+  #hero .left p {
+    max-width: 90%;
+    font-size: 18px;
+  }
+  /* Start Slider Section */
+  #slider .slider {
+    width: 70px;
+    height: 70px;
+  }
+  /* Start Benefit Section */
+  #benefit .benefitWrapper {
+    gap: 20px;
+  }
+  #benefit .left,
+  #benefit .right {
+    width: 100%;
+    text-align: center;
+  }
+  #benefit .right h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #benefit .cardWrapper .card {
+    width: 100%;
+  }
+  /* Start Security Section */
+  #security .right h5 {
+    font-size: 18px;
+  }
+  /* Start Platform Section */
+  #platform .right .card {
+    width: 45%;
+  }
+  /* Start Activate Section */
+  #activate .activateWrapper {
+    height: 420px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #activate .right h5 {
+    font-size: 18px;
+  }
+  /* Start Footer Section */
+  footer .contactWrapper {
+    gap: 50px;
+  }
+  footer .left {
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+  }
+  footer .navLink .link {
+    width: 100%;
+  }
+  footer .navLink .link ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .navLink .link ul li {
+    padding-left: 0;
+  }
+}
